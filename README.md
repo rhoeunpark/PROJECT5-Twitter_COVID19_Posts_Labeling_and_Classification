@@ -21,6 +21,7 @@ All datasets were collected using [SNScrape API](https://github.com/JustAnotherA
    2. [Unlabeled tweets](data/tweets_unlabeled.csv)
 
 Then, Snorkel labeling functions were used to label the unlabeled data.
+
    3. [Snorkel_labeled tweets](data/snorklabeled_tweets_train.csv)
 
 
@@ -58,6 +59,7 @@ The coverage was 68% and yielded decently large labeled dataset, as the original
 
 **Other Models**
 - BERT
+was too slow with no better accuracy.
 
 With both the hashtag-labeled and Snorkel-labeled dataset, the best performing model does beat the baseline accuracy.
 
