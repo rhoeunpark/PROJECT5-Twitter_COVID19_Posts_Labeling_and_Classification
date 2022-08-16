@@ -1,5 +1,3 @@
-# CAPSTONE-twitter-data-label-and-classification
-
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) CAPSTONE-Twitter COVID19 Vaccine Posts: Data Labeling and Text Classification
 
 # Problem Statement
@@ -51,6 +49,7 @@ The coverage was 68% and yielded decently large labeled dataset, as the original
 
 **Snorkel Labeled Model**
 - TF_IDF with XGBoost
+
 |          | precision | recall | f1-score |
 |----------|-----------|--------|----------|
 | 0        | 0.61      | 0.84   | 0.78     |
